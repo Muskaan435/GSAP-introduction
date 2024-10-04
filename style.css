@@ -22,6 +22,43 @@ html,body{
         position: relative;
         z-index: 8;
     }
+
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 0 30px;
+
+        #nav_part2{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+    }
+
+    img{
+        height: 400px;
+        width: 250px;
+        position: absolute;
+        top: 13%;
+        left: 40%;
+
+        #image1{
+            rotate: 30deg;
+        }
+        #image2{
+            rotate: 20deg;
+        }
+        #image3{
+            rotate: 10deg;
+        }
+        #image4{
+            rotate: 5deg;
+        }
+        
+    }
 }
 #main h1:nth-child(2){
     margin-top: 180px;
@@ -32,40 +69,13 @@ html,body{
 #main h1:nth-child(4){
     text-align: end;
 }
-#nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0 30px;
-}
+
 #nav h3{
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
 
 }
-#nav_part2{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-img{
-    height: 400px;
-    width: 250px;
-    position: absolute;
-    top: 13%;
-    left: 40%;
-}
-#image1{
-    rotate: 30deg;
-}
-#image2{
-    rotate: 20deg;
-}
-#image3{
-    rotate: 10deg;
-}
-#image4{
-    rotate: 5deg;
-}
+
+
+
